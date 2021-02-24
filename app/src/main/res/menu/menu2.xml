@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/info"
+        android:title="About us" />
+    <item
+        android:id="@+id/android"
+        android:icon="@drawable/power"
+        android:title="Sign out" />
+    <item
+        android:id="@+id/atras"
+        android:icon="?attr/actionModeCloseDrawable"
+        android:title="Item"
+        app:showAsAction="always" />
+</menu>
